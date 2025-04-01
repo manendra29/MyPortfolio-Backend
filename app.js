@@ -11,7 +11,7 @@ config();
 const app=express();
 app.use(cors({
     origin: [
-      '',
+      'https://my-portfolio-five-peach-36.vercel.app',
       'http://localhost:5173'
     ],
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
